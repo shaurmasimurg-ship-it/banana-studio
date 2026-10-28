@@ -413,3 +413,9 @@ enabled = true
 # formatted with uppercase keywords, indent 2, max width 180, trailing commas,
 # and column/key alignment. Set to "null" to emit raw, unformatted SQL.
 # format_options = "{\"keywordCase\":\"upper\",\"indent\":2,\"maxWidth\":180,\"commaStyle\":\"trailing\"}"
+
+# This isolated function authenticates a random workspace capability inside
+# its handler; every private route checks the active SHA-256 digest in the DB.
+# No Supabase Auth user, JWT validation setting, or original API is changed.
+[functions.resul-video]
+verify_jwt = false

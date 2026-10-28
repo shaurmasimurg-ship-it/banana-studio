@@ -1,0 +1,11 @@
+{
+  "name": "Resul Studio",
+  "short_name": "Resul Studio",
+  "description": "Özel yapay zekâ video stüdyon",
+  "lang": "tr",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#100c17",
+  "theme_color": "#100c17",
+  "icons": [{"src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable"}]
+}
